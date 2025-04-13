@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function list() {
     const [list, setList] = useState([]);
-    const BACKENDURL = "http://localhost:4000";
+    const BACKENDURL = "https://food-delivery-backend-dnyd.onrender.com";
 
     const listData = async () => {
         const fetchData = await axios.get(`${BACKENDURL}/api/foodRoute/list`)
