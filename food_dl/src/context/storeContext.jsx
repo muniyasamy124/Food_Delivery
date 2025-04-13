@@ -10,7 +10,7 @@ const StoreContextProvider = ({ children }) => {
   const [token, setToken] = useState("");
   const [userId, setUserId] = useState("");
   const [food_list, setFoodList] = useState([]);
-  const BACKENTURL = "http://localhost:4000/";
+  const BACKENTURL = "https://food-delivery-zn07.onrender.com/";
   // console.log("outer token", token);
 
   const addToCart = async (itemId) => {
