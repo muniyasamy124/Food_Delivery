@@ -5,7 +5,7 @@ import axios from 'axios'
 import { toast } from "react-toastify";
 
 function Add() {
-    const BACKENDURL = "https://food-delivery-backend-dnyd.onrender.com/";
+    const BACKENDURL = "https://food-delivery-backend-dnyd.onrender.com";
     const [image, setImage] = useState(null);
     const [data, setData] = useState({
         name: "",
